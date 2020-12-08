@@ -1,0 +1,6 @@
+framework module Pods_IGTrack_Tests {
+  umbrella header "Pods-IGTrack_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_IGTrack_Example {
+  umbrella header "Pods-IGTrack_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module IGTrack {
+  umbrella header "IGTrack-umbrella.h"
+
+  export *
+  module * { export * }
+}

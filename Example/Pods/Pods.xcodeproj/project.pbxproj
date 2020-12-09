@@ -8,55 +8,65 @@
 
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0136CF9E2379462FAEF4F688C5CA4210 /* IGEventManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E99D8CEA10A55081B00308A45BA5618 /* IGEventManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0554E5F18A340CFF1D579B0F40416A1A /* Pods-IGTrack_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D146403892BCDB844438279313A689 /* Pods-IGTrack_Example-dummy.m */; };
-		0963A99CA3FC3D605846CC398D8B9013 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		0FBEF4DC5B87651938346202D48A921D /* IGTrack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7243F17D4ED1D2192949CDD472ED1646 /* IGTrack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
+		1ADD2529A52688453021A43430520C46 /* UIViewController+IGRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 937DEA7A15DDDF9CC9623A67E8483A9D /* UIViewController+IGRouter.m */; };
+		2CB93FA74911B6E428ADDD0EADE0DA9B /* IGEventLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 522A21DD6F9C4F0AF254A369E0380A9B /* IGEventLog.m */; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
-		311B8BCA51F872F1768B537C50F9B878 /* IGTrackManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F7E300B677059F3E908E7ED161A5436 /* IGTrackManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32DE05F65EDA36A11D298411FA61FF73 /* IGTrack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F78A1AA9EF3A4E8BE1B72EF49CADED4 /* IGTrack-dummy.m */; };
+		3EBE524D27DD11DEA5DA8660D02983A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		40682EDC51E842DE081F12BA952977F0 /* IGTrack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9FD6F9A2B44C44EB838268F660E32DB /* IGTrack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C382BF27C5F79A115021987B883E0D6 /* Pods-IGTrack_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7337BFA31A15598A4DF8D2B709C05434 /* Pods-IGTrack_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		500E7CA2573A02B3044A0CB3245E56FB /* IGEventModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C780884A6EC2FE4B19694A37CEC5AA0 /* IGEventModel.m */; };
 		5D47FA8E2EF74A519A34647A38E91B68 /* Pods-IGTrack_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BF77F3C14CC11AAF04309D75D5262C /* Pods-IGTrack_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
 		6EB7E25683104E122E94891A2B0E4487 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		790875C5FAD624A83D006F2481E46039 /* UIControl+IGHook.m in Sources */ = {isa = PBXBuildFile; fileRef = CC03A6212CCF43006FC19B6B48AB7ADD /* UIControl+IGHook.m */; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		943DCE51FAB87E1B92BCBCBEA62F5299 /* IGEventLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 53DAD2FB5C5C0933563499A29CA0DB55 /* IGEventLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
+		ABA38D383FA00DC47F5223CC5B393EEC /* IGTrackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A4A7192DAE4098903103ED24BB88E /* IGTrackManager.m */; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B95CDDE66495E19E9F14645CEC6EE22B /* IGEventModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B4322472ACC1D7E584CAF8AF02DA22B /* IGEventModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD84E09F1AF83FA5ADF0225450233D33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		C26091D9F24BAE8C54BDA1278D361CB9 /* IGEventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50842A3CCA3E4096DF23659354268CC1 /* IGEventManager.m */; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCA1F3DA607B27248BCF760B13880BBF /* IGTrack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B98F601C5059751C231AA1FCB381F2EF /* IGTrack-dummy.m */; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D3DBED21D9CE8F755176F67B15A16AF0 /* Pods-IGTrack_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7119FFA6CB27F7C8E9F170908E25A33 /* Pods-IGTrack_Tests-dummy.m */; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
+		E325BDE75C7222C366C104938B6D67AD /* UIControl+IGHook.h in Headers */ = {isa = PBXBuildFile; fileRef = B0DEB02553E1A8B36E0443366B1BD091 /* UIControl+IGHook.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		ECFBD8A02A9D0C9D56DEE2D8BB8986B1 /* UIViewController+IGRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E274DDBF23B55364A6505107FB5427E /* UIViewController+IGRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F50D49FFCD46BA9FA8AAA75DA58709BB /* IGTrackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC71CED1326DABF32A11BB425FC11E79 /* IGTrackManager.m */; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9F9A3193C0353A9FAE476C381FE8C62 /* IGTrackManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2200FE6C418F05B8157E6B5C11600585 /* IGTrackManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5B40EA567CDFE62F3058854463FB76B0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FBE3E9037A0A2E83477EDCF7292ECEF2;
-			remoteInfo = "Pods-IGTrack_Example";
-		};
-		72BB36C434B27E3CAC2A16920AAC864F /* PBXContainerItemProxy */ = {
+		43031720CAF2907454B0852640AACC01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
 			remoteInfo = FBSnapshotTestCase;
 		};
-		D9ADCF903F7AC197EB4FAD32C73D1BE4 /* PBXContainerItemProxy */ = {
+		E40A3AD46B0067A3968528A455AB0EA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBE3E9037A0A2E83477EDCF7292ECEF2;
+			remoteInfo = "Pods-IGTrack_Example";
+		};
+		EBC7E30610BF533D983593B94AA5E321 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -66,34 +76,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0483713772370A8FDC5652CD34B2977F /* IGTrack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IGTrack.debug.xcconfig; sourceTree = "<group>"; };
 		0BDA07C5B96FEF8756B748F29DC21AE5 /* Pods-IGTrack_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IGTrack_Example.modulemap"; sourceTree = "<group>"; };
-		0DEC846CB7D51B11A4E70570BBFCFF7C /* IGTrack.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IGTrack.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0E7156BC453E3441A7D4D4ADFFD85131 /* IGTrack.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IGTrack.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		0FF135EF88A876E48560AEEAA6AD61A2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		102AD8616003C20B7A9E1D26B82EAD1D /* Pods-IGTrack_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IGTrack_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		1D27EC1A8FE7026535B8103BDEEFF8F9 /* Pods-IGTrack_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IGTrack_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1F7E300B677059F3E908E7ED161A5436 /* IGTrackManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGTrackManager.h; path = IGTrack/Classes/IGTrackManager.h; sourceTree = "<group>"; };
-		211E9DFF675D269B6122A52462760C10 /* IGTrack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IGTrack-prefix.pch"; sourceTree = "<group>"; };
+		2200FE6C418F05B8157E6B5C11600585 /* IGTrackManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGTrackManager.h; path = IGTrack/Classes/IGTrackManager.h; sourceTree = "<group>"; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		2F78A1AA9EF3A4E8BE1B72EF49CADED4 /* IGTrack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IGTrack-dummy.m"; sourceTree = "<group>"; };
+		2B4322472ACC1D7E584CAF8AF02DA22B /* IGEventModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGEventModel.h; path = IGTrack/Classes/IGEventModel.h; sourceTree = "<group>"; };
+		31013310DD51406DB2EDC8F4562E2D00 /* IGTrack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IGTrack.debug.xcconfig; sourceTree = "<group>"; };
+		32D1C4D2706498C6D3DCDA0F7B0BB18A /* IGTrack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IGTrack-prefix.pch"; sourceTree = "<group>"; };
+		342AA495C033E576EFA70B9869A0A4D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		3F4A4A7192DAE4098903103ED24BB88E /* IGTrackManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGTrackManager.m; path = IGTrack/Classes/IGTrackManager.m; sourceTree = "<group>"; };
 		42D146403892BCDB844438279313A689 /* Pods-IGTrack_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IGTrack_Example-dummy.m"; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		4C30ACC423F8518DFC206E253A22EE30 /* Pods_IGTrack_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IGTrack_Example.framework; path = "Pods-IGTrack_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		4E274DDBF23B55364A6505107FB5427E /* UIViewController+IGRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+IGRouter.h"; path = "IGTrack/Classes/UIViewController+IGRouter.h"; sourceTree = "<group>"; };
 		4F1A444C183D5D1B6A688E47CC85EA4C /* Pods-IGTrack_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IGTrack_Example-Info.plist"; sourceTree = "<group>"; };
-		4F69FA50F2AD91C76CCD99B5988B4C62 /* IGTrack-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IGTrack-Info.plist"; sourceTree = "<group>"; };
+		50842A3CCA3E4096DF23659354268CC1 /* IGEventManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGEventManager.m; path = IGTrack/Classes/IGEventManager.m; sourceTree = "<group>"; };
+		522A21DD6F9C4F0AF254A369E0380A9B /* IGEventLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGEventLog.m; path = IGTrack/Classes/IGEventLog.m; sourceTree = "<group>"; };
+		53DAD2FB5C5C0933563499A29CA0DB55 /* IGEventLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGEventLog.h; path = IGTrack/Classes/IGEventLog.h; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5E99D8CEA10A55081B00308A45BA5618 /* IGEventManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGEventManager.h; path = IGTrack/Classes/IGEventManager.h; sourceTree = "<group>"; };
 		63595518AF5CB2BFC232F786BD34C13D /* IGTrack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IGTrack.framework; path = IGTrack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		6B9E0E960D75BD1E64C1B786C783796B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6BDCD8D7BF113ACC75B63346ED626C4C /* Pods-IGTrack_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IGTrack_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6C780884A6EC2FE4B19694A37CEC5AA0 /* IGEventModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGEventModel.m; path = IGTrack/Classes/IGEventModel.m; sourceTree = "<group>"; };
 		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		7243F17D4ED1D2192949CDD472ED1646 /* IGTrack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IGTrack-umbrella.h"; sourceTree = "<group>"; };
 		7337BFA31A15598A4DF8D2B709C05434 /* Pods-IGTrack_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IGTrack_Example-umbrella.h"; sourceTree = "<group>"; };
 		7409B479C6B81FBE69020F82D99F286F /* Pods-IGTrack_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IGTrack_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -103,19 +121,23 @@
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		937DEA7A15DDDF9CC9623A67E8483A9D /* UIViewController+IGRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+IGRouter.m"; path = "IGTrack/Classes/UIViewController+IGRouter.m"; sourceTree = "<group>"; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		96BF77F3C14CC11AAF04309D75D5262C /* Pods-IGTrack_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IGTrack_Tests-umbrella.h"; sourceTree = "<group>"; };
-		99806E95E00F1E1EE91F173D9F1E6352 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A33221FF62522A53097EC81403203587 /* IGTrack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IGTrack.release.xcconfig; sourceTree = "<group>"; };
-		A9FD6F9A2B44C44EB838268F660E32DB /* IGTrack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IGTrack-umbrella.h"; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		B0DEB02553E1A8B36E0443366B1BD091 /* UIControl+IGHook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+IGHook.h"; path = "IGTrack/Classes/UIControl+IGHook.h"; sourceTree = "<group>"; };
+		B1B45B26E9C8D4D79CCFF6F6CF2382A0 /* IGTrack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IGTrack.release.xcconfig; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		B7119FFA6CB27F7C8E9F170908E25A33 /* Pods-IGTrack_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IGTrack_Tests-dummy.m"; sourceTree = "<group>"; };
+		B98F601C5059751C231AA1FCB381F2EF /* IGTrack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IGTrack-dummy.m"; sourceTree = "<group>"; };
 		BBDDD6F686A8E2B098893259CC3830B0 /* Pods-IGTrack_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IGTrack_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BDF05DA041D604FEA66B112FC48ABCEF /* IGTrack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IGTrack.modulemap; sourceTree = "<group>"; };
+		C1CE8AC0251EDE5669BAB28903659A0A /* IGTrack-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IGTrack-Info.plist"; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		CC03A6212CCF43006FC19B6B48AB7ADD /* UIControl+IGHook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+IGHook.m"; path = "IGTrack/Classes/UIControl+IGHook.m"; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D3BB868C2F97818AE22E81369FA4C63F /* Pods_IGTrack_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IGTrack_Tests.framework; path = "Pods-IGTrack_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
@@ -123,13 +145,19 @@
 		E563E59748CC1AE4ADA292862329D6C5 /* Pods-IGTrack_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IGTrack_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E92FF23D1C943DA335124FFAAB24A6FE /* Pods-IGTrack_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IGTrack_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EBBDE47F7369726A55972E76B424D853 /* Pods-IGTrack_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IGTrack_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FC71CED1326DABF32A11BB425FC11E79 /* IGTrackManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGTrackManager.m; path = IGTrack/Classes/IGTrackManager.m; sourceTree = "<group>"; };
 		FE524EDDF40DF9477043B7939B95E1FF /* Pods-IGTrack_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IGTrack_Example-frameworks.sh"; sourceTree = "<group>"; };
-		FE7A2D4CEB0C4F9A4707B2E621D3EA04 /* IGTrack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IGTrack.modulemap; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		386594B03294CCE3941B89F6D3C0C837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EBE524D27DD11DEA5DA8660D02983A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BC95C602FD2266592FB438C8B4D69F0B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -157,14 +185,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC5E925675F0D574AF7E8AA4D189236D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0963A99CA3FC3D605846CC398D8B9013 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -183,18 +203,6 @@
 			);
 			name = "Pods-IGTrack_Tests";
 			path = "Target Support Files/Pods-IGTrack_Tests";
-			sourceTree = "<group>";
-		};
-		08AB59EAD165308780E8F752431DFEC9 /* IGTrack */ = {
-			isa = PBXGroup;
-			children = (
-				1F7E300B677059F3E908E7ED161A5436 /* IGTrackManager.h */,
-				FC71CED1326DABF32A11BB425FC11E79 /* IGTrackManager.m */,
-				FA3D2780FD1935D0936B679117D61845 /* Pod */,
-				5EAE6670359940AD58D4387625D73C9C /* Support Files */,
-			);
-			name = IGTrack;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
@@ -218,21 +226,6 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		5EAE6670359940AD58D4387625D73C9C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FE7A2D4CEB0C4F9A4707B2E621D3EA04 /* IGTrack.modulemap */,
-				2F78A1AA9EF3A4E8BE1B72EF49CADED4 /* IGTrack-dummy.m */,
-				4F69FA50F2AD91C76CCD99B5988B4C62 /* IGTrack-Info.plist */,
-				211E9DFF675D269B6122A52462760C10 /* IGTrack-prefix.pch */,
-				A9FD6F9A2B44C44EB838268F660E32DB /* IGTrack-umbrella.h */,
-				0483713772370A8FDC5652CD34B2977F /* IGTrack.debug.xcconfig */,
-				A33221FF62522A53097EC81403203587 /* IGTrack.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/IGTrack";
-			sourceTree = "<group>";
-		};
 		7641A92DD3E7CADC7FCF0F813F0904C0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -253,12 +246,45 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		7E8083F8AF688FB5476D13721FE61FB1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA46ED89669EA7F731CE7A0757CC706E /* IGTrack */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		85B2AF7517063F613C59A067379D65CA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDF05DA041D604FEA66B112FC48ABCEF /* IGTrack.modulemap */,
+				B98F601C5059751C231AA1FCB381F2EF /* IGTrack-dummy.m */,
+				C1CE8AC0251EDE5669BAB28903659A0A /* IGTrack-Info.plist */,
+				32D1C4D2706498C6D3DCDA0F7B0BB18A /* IGTrack-prefix.pch */,
+				7243F17D4ED1D2192949CDD472ED1646 /* IGTrack-umbrella.h */,
+				31013310DD51406DB2EDC8F4562E2D00 /* IGTrack.debug.xcconfig */,
+				B1B45B26E9C8D4D79CCFF6F6CF2382A0 /* IGTrack.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/IGTrack";
+			sourceTree = "<group>";
+		};
 		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
 				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		B62608FD08DF54D1EAA01E16708939A3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0E7156BC453E3441A7D4D4ADFFD85131 /* IGTrack.podspec */,
+				6B9E0E960D75BD1E64C1B786C783796B /* LICENSE */,
+				342AA495C033E576EFA70B9869A0A4D3 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
@@ -295,11 +321,33 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
+		CA46ED89669EA7F731CE7A0757CC706E /* IGTrack */ = {
+			isa = PBXGroup;
+			children = (
+				53DAD2FB5C5C0933563499A29CA0DB55 /* IGEventLog.h */,
+				522A21DD6F9C4F0AF254A369E0380A9B /* IGEventLog.m */,
+				5E99D8CEA10A55081B00308A45BA5618 /* IGEventManager.h */,
+				50842A3CCA3E4096DF23659354268CC1 /* IGEventManager.m */,
+				2B4322472ACC1D7E584CAF8AF02DA22B /* IGEventModel.h */,
+				6C780884A6EC2FE4B19694A37CEC5AA0 /* IGEventModel.m */,
+				2200FE6C418F05B8157E6B5C11600585 /* IGTrackManager.h */,
+				3F4A4A7192DAE4098903103ED24BB88E /* IGTrackManager.m */,
+				B0DEB02553E1A8B36E0443366B1BD091 /* UIControl+IGHook.h */,
+				CC03A6212CCF43006FC19B6B48AB7ADD /* UIControl+IGHook.m */,
+				4E274DDBF23B55364A6505107FB5427E /* UIViewController+IGRouter.h */,
+				937DEA7A15DDDF9CC9623A67E8483A9D /* UIViewController+IGRouter.m */,
+				B62608FD08DF54D1EAA01E16708939A3 /* Pod */,
+				85B2AF7517063F613C59A067379D65CA /* Support Files */,
+			);
+			name = IGTrack;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				E565C7E9E49CCBB29EBF9A512E62D3BF /* Development Pods */,
+				7E8083F8AF688FB5476D13721FE61FB1 /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
 				F97C50C1CF592C65EF8B9B3C46CC80ED /* Products */,
@@ -324,14 +372,6 @@
 			path = "Target Support Files/Pods-IGTrack_Example";
 			sourceTree = "<group>";
 		};
-		E565C7E9E49CCBB29EBF9A512E62D3BF /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				08AB59EAD165308780E8F752431DFEC9 /* IGTrack */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -351,28 +391,9 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FA3D2780FD1935D0936B679117D61845 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				0DEC846CB7D51B11A4E70570BBFCFF7C /* IGTrack.podspec */,
-				0FF135EF88A876E48560AEEAA6AD61A2 /* LICENSE */,
-				99806E95E00F1E1EE91F173D9F1E6352 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2336E3A70B3917D9D06D01CBC15AB745 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				40682EDC51E842DE081F12BA952977F0 /* IGTrack-umbrella.h in Headers */,
-				311B8BCA51F872F1768B537C50F9B878 /* IGTrackManager.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -404,17 +425,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7FC5E5860C183EE855CB32C30464D6E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943DCE51FAB87E1B92BCBCBEA62F5299 /* IGEventLog.h in Headers */,
+				0136CF9E2379462FAEF4F688C5CA4210 /* IGEventManager.h in Headers */,
+				B95CDDE66495E19E9F14645CEC6EE22B /* IGEventModel.h in Headers */,
+				0FBEF4DC5B87651938346202D48A921D /* IGTrack-umbrella.h in Headers */,
+				F9F9A3193C0353A9FAE476C381FE8C62 /* IGTrackManager.h in Headers */,
+				E325BDE75C7222C366C104938B6D67AD /* UIControl+IGHook.h in Headers */,
+				ECFBD8A02A9D0C9D56DEE2D8BB8986B1 /* UIViewController+IGRouter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		481859F61812B3118409803DD2530346 /* IGTrack */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4889A2DEC3E41EDA23157A2078B8ABFA /* Build configuration list for PBXNativeTarget "IGTrack" */;
+			buildConfigurationList = 5F1FBB847AF87DCACCF62C3209C6C22B /* Build configuration list for PBXNativeTarget "IGTrack" */;
 			buildPhases = (
-				2336E3A70B3917D9D06D01CBC15AB745 /* Headers */,
-				7BE65EF10BAEAF43E99CB9642B8B27E4 /* Sources */,
-				EC5E925675F0D574AF7E8AA4D189236D /* Frameworks */,
-				DEBD13823A1917C19DCF00985CFE8356 /* Resources */,
+				7FC5E5860C183EE855CB32C30464D6E5 /* Headers */,
+				BD6AC285FA80DD21544FA522446C743C /* Sources */,
+				386594B03294CCE3941B89F6D3C0C837 /* Frameworks */,
+				690DECA348AA74C863608F15ECAE0D5C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -437,8 +472,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				758D4B8BA55E0FEC27934855B7F0CF58 /* PBXTargetDependency */,
-				4CD0E2164FE81C47FC8BC788E52AA7FB /* PBXTargetDependency */,
+				42C536A9D1082A649055B090E185EE53 /* PBXTargetDependency */,
+				4D69B62C575A540EB49F88E4F33D8B8F /* PBXTargetDependency */,
 			);
 			name = "Pods-IGTrack_Tests";
 			productName = "Pods-IGTrack_Tests";
@@ -475,7 +510,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				81EA8E801C7120EBADC8C021A68F2255 /* PBXTargetDependency */,
+				4A87CBA1E62C9166A2C6F5B8F934A17A /* PBXTargetDependency */,
 			);
 			name = "Pods-IGTrack_Example";
 			productName = "Pods-IGTrack_Example";
@@ -520,6 +555,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		690DECA348AA74C863608F15ECAE0D5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		764170469DE826395EBB1C5AC36CBFDE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -528,13 +570,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7972174FE56968884986C9741EBAE5EA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DEBD13823A1917C19DCF00985CFE8356 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -560,15 +595,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BE65EF10BAEAF43E99CB9642B8B27E4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				32DE05F65EDA36A11D298411FA61FF73 /* IGTrack-dummy.m in Sources */,
-				F50D49FFCD46BA9FA8AAA75DA58709BB /* IGTrackManager.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -585,62 +611,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BD6AC285FA80DD21544FA522446C743C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CB93FA74911B6E428ADDD0EADE0DA9B /* IGEventLog.m in Sources */,
+				C26091D9F24BAE8C54BDA1278D361CB9 /* IGEventManager.m in Sources */,
+				500E7CA2573A02B3044A0CB3245E56FB /* IGEventModel.m in Sources */,
+				CCA1F3DA607B27248BCF760B13880BBF /* IGTrack-dummy.m in Sources */,
+				ABA38D383FA00DC47F5223CC5B393EEC /* IGTrackManager.m in Sources */,
+				790875C5FAD624A83D006F2481E46039 /* UIControl+IGHook.m in Sources */,
+				1ADD2529A52688453021A43430520C46 /* UIViewController+IGRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4CD0E2164FE81C47FC8BC788E52AA7FB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-IGTrack_Example";
-			target = FBE3E9037A0A2E83477EDCF7292ECEF2 /* Pods-IGTrack_Example */;
-			targetProxy = 5B40EA567CDFE62F3058854463FB76B0 /* PBXContainerItemProxy */;
-		};
-		758D4B8BA55E0FEC27934855B7F0CF58 /* PBXTargetDependency */ = {
+		42C536A9D1082A649055B090E185EE53 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
 			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = 72BB36C434B27E3CAC2A16920AAC864F /* PBXContainerItemProxy */;
+			targetProxy = 43031720CAF2907454B0852640AACC01 /* PBXContainerItemProxy */;
 		};
-		81EA8E801C7120EBADC8C021A68F2255 /* PBXTargetDependency */ = {
+		4A87CBA1E62C9166A2C6F5B8F934A17A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = IGTrack;
 			target = 481859F61812B3118409803DD2530346 /* IGTrack */;
-			targetProxy = D9ADCF903F7AC197EB4FAD32C73D1BE4 /* PBXContainerItemProxy */;
+			targetProxy = EBC7E30610BF533D983593B94AA5E321 /* PBXContainerItemProxy */;
+		};
+		4D69B62C575A540EB49F88E4F33D8B8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-IGTrack_Example";
+			target = FBE3E9037A0A2E83477EDCF7292ECEF2 /* Pods-IGTrack_Example */;
+			targetProxy = E40A3AD46B0067A3968528A455AB0EA1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1BFFE6AC7339FB367B39114810414322 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A33221FF62522A53097EC81403203587 /* IGTrack.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/IGTrack/IGTrack-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/IGTrack/IGTrack-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/IGTrack/IGTrack.modulemap";
-				PRODUCT_MODULE_NAME = IGTrack;
-				PRODUCT_NAME = IGTrack;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		441C7939108738A0C7CD37CBADE0B85E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
@@ -706,6 +714,37 @@
 			};
 			name = Release;
 		};
+		62A10BC306C4EC7C3D70517679DCA8CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31013310DD51406DB2EDC8F4562E2D00 /* IGTrack.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IGTrack/IGTrack-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IGTrack/IGTrack-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IGTrack/IGTrack.modulemap";
+				PRODUCT_MODULE_NAME = IGTrack;
+				PRODUCT_NAME = IGTrack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		6B787367417AB5644D56CE1FB51FF685 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E92FF23D1C943DA335124FFAAB24A6FE /* Pods-IGTrack_Tests.debug.xcconfig */;
@@ -739,9 +778,9 @@
 			};
 			name = Debug;
 		};
-		6D723E8CE995F647F803A3CDC93280C2 /* Debug */ = {
+		7DBF79B4F9F8C48479D7B4D2172754A5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0483713772370A8FDC5652CD34B2977F /* IGTrack.debug.xcconfig */;
+			baseConfigurationReference = B1B45B26E9C8D4D79CCFF6F6CF2382A0 /* IGTrack.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -765,10 +804,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1005,11 +1045,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4889A2DEC3E41EDA23157A2078B8ABFA /* Build configuration list for PBXNativeTarget "IGTrack" */ = {
+		5F1FBB847AF87DCACCF62C3209C6C22B /* Build configuration list for PBXNativeTarget "IGTrack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D723E8CE995F647F803A3CDC93280C2 /* Debug */,
-				1BFFE6AC7339FB367B39114810414322 /* Release */,
+				62A10BC306C4EC7C3D70517679DCA8CE /* Debug */,
+				7DBF79B4F9F8C48479D7B4D2172754A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

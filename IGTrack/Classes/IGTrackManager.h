@@ -10,6 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface IGTrackManager : NSObject
+
 - (void)testPrint:(NSString *)text;
 @end
 

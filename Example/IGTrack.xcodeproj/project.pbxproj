@@ -248,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = wandou911;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = E59A4674AP;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -513,6 +516,7 @@
 			baseConfigurationReference = 46BAD014C623B80CA0C733B6 /* Pods-IGTrack_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E59A4674AP;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IGTrack/IGTrack-Prefix.pch";
 				INFOPLIST_FILE = "IGTrack/IGTrack-Info.plist";
@@ -529,6 +533,7 @@
 			baseConfigurationReference = 28406EB3E818E766DEEFA89D /* Pods-IGTrack_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E59A4674AP;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IGTrack/IGTrack-Prefix.pch";
 				INFOPLIST_FILE = "IGTrack/IGTrack-Info.plist";

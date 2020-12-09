@@ -10,7 +10,7 @@
 @implementation IGTrackManager
 - (void)testPrint:(NSString *)text {
     
-    NSLog(@"JCNetworkManager print == %@",text);
+    NSLog(@"IGTrackManager print == %@",text);
     
 }
 @end
